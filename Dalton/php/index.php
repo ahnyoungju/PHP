@@ -19,7 +19,8 @@
         'packages':['geochart'],
         // Note: you will need to get a mapsApiKey for your project.
         // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
-        'mapsApiKey': 'AIzaSyCeDgRanm4MuMiHLe9oZPJP5IilxSyibXw'
+        // Google MAP API Key Must be here
+        'mapsApiKey': 'API-KEY MUST BE here'
       });
       google.charts.setOnLoadCallback(drawMarkersMap);
 
